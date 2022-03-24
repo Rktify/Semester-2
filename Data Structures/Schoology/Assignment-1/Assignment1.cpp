@@ -1,6 +1,3 @@
-// Sir im sorry if my code has a lot of mistakes, im still learning CPP, its quite hard
-// I am aware of some of the mistakes in this code but i dont know how to fix as of yet
-
 #include <iostream>
 using namespace std;
 
