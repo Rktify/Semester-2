@@ -1,19 +1,18 @@
 #include <iostream>
 using namespace std;
-int x, out, inc, loop;
+int main() {
+    int factorial, x = 1;
+    cout << "Enter a number: ";
+    cin >> factorial;
 
-int main(){
-	cout << "Enter a starting number: ";
-	cin >> x;
-    cout << "Enter an increment: ";
-    cin >> inc;
-    cout << "How many times do you want to increment it?: ";
-    cin >> loop;
-
-    int out = x;
-	for(int i = 1; i <= loop; i++){
-		out += inc;
-	}
-	cout << "Starting value is " << x << endl;
-    cout << "End value is " << out;
+    if (factorial >= 1){
+        for(int i = 1; i <= factorial; i++){
+            x = x * i;
+        }
+        cout << "Factorial of " << factorial << " is " << x;
+    }
+    else{
+        cout << "Re-enter a positive integer" << endl;
+        main();
+    }
 }
