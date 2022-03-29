@@ -10,7 +10,7 @@ public class MachineProblem1 {
 
         System.out.print("Enter the value of all items (separated by space): ");
 
-        for(int i = 0; i < array.length; i++){
+        for(int i = 0; i < x; i++){
             array[i] = input.nextInt();
         }
 
